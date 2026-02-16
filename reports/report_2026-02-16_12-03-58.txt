@@ -1,0 +1,73 @@
+=== IT Helpdesk Toolkit Report ===
+Data/Hora: 2026-02-16 12:03:53.876632
+
+[INFO BÁSICA]
+Host: DESKTOP-3H5QQAU
+SO: Windows
+Versão: 10.0.19045
+
+[PING]
+Disparando 8.8.8.8 com 32 bytes de dados:
+Resposta de 8.8.8.8: bytes=32 tempo=8ms TTL=117
+Resposta de 8.8.8.8: bytes=32 tempo=8ms TTL=117
+Resposta de 8.8.8.8: bytes=32 tempo=8ms TTL=117
+Resposta de 8.8.8.8: bytes=32 tempo=9ms TTL=117
+
+Estat¡sticas do Ping para 8.8.8.8:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 8ms, M ximo = 9ms, M‚dia = 8ms
+
+[DNS]
+DNS OK: google.com -> 142.250.78.110
+
+[IP/REDE]
+Configura‡Æo de IP do Windows
+
+   Nome do host. . . . . . . . . . . . . . . . : DESKTOP-3H5QQAU
+   Sufixo DNS prim rio . . . . . . . . . . . . : 
+   Tipo de n¢. . . . . . . . . . . . . . . . . : h¡brido
+   Roteamento de IP ativado. . . . . . . . . . : nÆo
+   Proxy WINS ativado. . . . . . . . . . . . . : nÆo
+
+Adaptador Ethernet Ethernet:
+
+   Sufixo DNS espec¡fico de conexÆo. . . . . . : 
+   Descri‡Æo . . . . . . . . . . . . . . . . . : Killer E3100G 2.5 Gigabit Ethernet Controller
+   Endere‡o F¡sico . . . . . . . . . . . . . . : A8-A1-59-BE-FB-E4
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configura‡Æo Autom tica Habilitada. . . . . : Sim
+   Endere‡o IPv6 de link local . . . . . . . . : fe80::3012:40de:9990:c59c%9(Preferencial) 
+   Endere‡o IPv4. . . . . . . .  . . . . . . . : 192.168.0.102(Preferencial) 
+   M scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   ConcessÆo Obtida. . . . . . . . . . . . . . : segunda-feira, 16 de fevereiro de 2026 11:18:59
+   ConcessÆo Expira. . . . . . . . . . . . . . : segunda-feira, 16 de fevereiro de 2026 13:18:58
+   Gateway PadrÆo. . . . . . . . . . . . . . . : 192.168.0.1
+   Servidor DHCP . . . . . . . . . . . . . . . : 192.168.0.1
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 346595673
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-2F-B2-7B-38-A8-A1-59-BE-FB-E4
+   Servidores DNS. . . . . . . . . . . . . . . : 192.168.0.1
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+
+[USO DO SISTEMA]
+CPU:
+LoadPercentage  
+
+8
+
+MEM:
+FreePhysicalMemory=22776140
+
+TotalVisibleMemorySize=33481300
+
+DISCO:
+Caption  FreeSpace     Size          
+
+C:       148748255232  479395856384  
+
+D:       29600415744   34347155456   
+
+E:       172347199488  512108785664  
+
+F:       93742497792   128034271232

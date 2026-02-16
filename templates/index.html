@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IT Helpdesk Toolkit</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>IT Helpdesk Toolkit</h1>
+      <p>Ferramentas rápidas de suporte: ping, DNS, rede e relatório.</p>
+    </div>
+    <span class="badge">Python + Flask</span>
+  </header>
+
+  <main class="grid">
+    <button class="card" data-endpoint="/api/info">
+      <h2>Info do Sistema</h2>
+      <p>Host e versão do Windows</p>
+    </button>
+
+    <button class="card" data-endpoint="/api/ping">
+      <h2>Teste de Ping</h2>
+      <p>Ping em 8.8.8.8</p>
+    </button>
+
+    <button class="card" data-endpoint="/api/dns">
+      <h2>Teste de DNS</h2>
+      <p>Resolve google.com</p>
+    </button>
+
+    <button class="card" data-endpoint="/api/ip">
+      <h2>IP / Rede</h2>
+      <p>ipconfig /all</p>
+    </button>
+
+    <button class="card" data-endpoint="/api/usage">
+      <h2>Uso do Sistema</h2>
+      <p>CPU/RAM/Disco</p>
+    </button>
+
+    <button class="card primary" data-endpoint="/api/report">
+      <h2>Gerar Relatório</h2>
+      <p>Salva um .txt em /reports</p>
+    </button>
+
+    <section class="output">
+      <div class="out-top">
+        <h3>Saída</h3>
+        <div class="actions">
+          <button id="clearBtn" class="ghost">Limpar</button>
+          <button id="copyBtn" class="ghost">Copiar</button>
+        </div>
+      </div>
+      <pre id="result">Clique em um card acima para executar.</pre>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <small>Projeto para portfólio (iniciante) — Vinicius Nunes da Silva</small>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
